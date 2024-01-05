@@ -84,43 +84,10 @@ $ # BaseUrl = "http://localhost:8000/api/v1/"
 
 ## Screenshot
 #### Light Mode
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/0.1.login.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/0.2.create-account.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/1.1.home.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/1.2.notification.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/2.1.appointment.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/2.2.appointment.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/2.3.appointment.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.1.booking.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.2.reschedule-booking.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.3.cencel-booking.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.4.completed-booking.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.5.review-booking.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/4.1.account-settings.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/4.2.account-info.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/4.3.shop-location.png" width="170">
+<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/0.1.login.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/0.2.create-account.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/1.1.home.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/1.2.notification.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/2.1.appointment.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/2.2.appointment.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/2.3.appointment.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.1.booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.2.reschedule-booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.3.cencel-booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.4.completed-booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/3.5.review-booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/4.1.account-settings.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/4.2.account-info.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/light/4.3.shop-location.png" width="170">
 
 #### Dark Mode
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/1.1 login.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/1.2 create account.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
-<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/.png" width="170">
+<img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/1.1 login.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/1.2 create account.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/2.1 home.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/2.2 notification.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/3.1 appointment.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/3.2 add service for app.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/3.3 confirmation app.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/3.4 appointment success.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/4.1 upcoming-booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/4.2 upcoming-cancel.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/4.3 upcoming-reschedule.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/4.4 completed-booking.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/4.5 completed-review.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/5.1 profile.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/5.2 view-account.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/5.3 contact-us.png" width="170"><img src="https://github.com/ithemecambo/nail_spa_ios/blob/main/screenshots/dark/5.4 nail_spa_springs.png" width="170">
 
 
 
