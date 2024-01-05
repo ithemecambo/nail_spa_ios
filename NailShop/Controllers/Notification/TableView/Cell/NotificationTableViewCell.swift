@@ -27,7 +27,6 @@ class NotificationTableViewCell: BaseTableViewCell {
     var notification: NotificationModel? {
         didSet {
             guard let model = notification else { return }
-            consoleLog("\(Configuration.baseUrl)\(model.bannerUrl ?? "")")
             titleLabel.text = model.title
             subTitleLabel.text = model.subtitle
             photoImageView.loadImage(url: "\(Configuration.baseUrl)\(model.bannerUrl ?? "")")

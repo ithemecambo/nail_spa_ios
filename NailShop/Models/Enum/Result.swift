@@ -17,6 +17,3 @@ enum ResultPaginator<T: Codable> {
     case success(T, Bool)
     case failed(String)
 }
-
-
-

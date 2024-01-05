@@ -115,7 +115,7 @@ struct AppSettingSectionModel {
             ]),
             AppSettingSectionModel(items: [
                 AppSettingModel(id: UUID(), title: "Feedback", type: .arrow),
-                AppSettingModel(id: UUID(), title: "Cache", type: .text, value: "\(String.init(format: "%0.2f", Float.random(in: 3.5...9.9)))MB"),
+                AppSettingModel(id: UUID(), title: "Cache", type: .text, value: "0 MB"),
                 AppSettingModel(id: UUID(), title: "Version", type: .text, value: "V 1.68.2"),
             ]),
             AppSettingSectionModel(items: [

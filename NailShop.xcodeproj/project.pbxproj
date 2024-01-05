@@ -49,7 +49,6 @@
 		15497E702B09A81900204452 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15497E6C2B09A81900204452 /* CategoryCollectionViewCell.xib */; };
 		15497E762B09A84400204452 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15497E742B09A84400204452 /* CategoryTableViewCell.swift */; };
 		15497E792B09A84400204452 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15497E752B09A84400204452 /* CategoryTableViewCell.xib */; };
-		154ECEB92B04891E008C21CC /* icon-email.png in Resources */ = {isa = PBXBuildFile; fileRef = 154ECEB82B04891D008C21CC /* icon-email.png */; };
 		15591C4D2B05670C005276DD /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15591C4C2B05670C005276DD /* UINavigationController.swift */; };
 		15591C5C2B0596B2005276DD /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15591C5A2B0596B2005276DD /* ServiceTableViewCell.swift */; };
 		15591C5F2B0596B2005276DD /* ServiceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15591C5B2B0596B2005276DD /* ServiceTableViewCell.xib */; };
@@ -373,7 +372,6 @@
 		15497E6C2B09A81900204452 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		15497E742B09A84400204452 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
 		15497E752B09A84400204452 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
-		154ECEB82B04891D008C21CC /* icon-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-email.png"; sourceTree = "<group>"; };
 		15591C4C2B05670C005276DD /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 		15591C5A2B0596B2005276DD /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
 		15591C5B2B0596B2005276DD /* ServiceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServiceTableViewCell.xib; sourceTree = "<group>"; };
@@ -885,17 +883,8 @@
 			isa = PBXGroup;
 			children = (
 				15B7DCB12B2A86AD00BFA207 /* Lottie */,
-				154ECEBD2B04892C008C21CC /* Icons */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		154ECEBD2B04892C008C21CC /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				154ECEB82B04891D008C21CC /* icon-email.png */,
-			);
-			path = Icons;
 			sourceTree = "<group>";
 		};
 		15591C582B0596B2005276DD /* NailArt */ = {
@@ -1280,8 +1269,8 @@
 				15B1484A2B02CC9C00BE947A /* Controllers */,
 				15379B282B02D9EA00633C28 /* Common */,
 				15379B3D2B02DB9700633C28 /* Libraries */,
-				15B148212B02CC7700BE947A /* Assets.xcassets */,
 				154ECEBC2B048923008C21CC /* Resources */,
+				15B148212B02CC7700BE947A /* Assets.xcassets */,
 				15B148262B02CC7700BE947A /* Info.plist */,
 				15B7DC532B29EEBD00BFA207 /* NailShop.xcdatamodeld */,
 			);
@@ -2070,7 +2059,6 @@
 				158CE6B72B2763A300E426FA /* HeadTimeSlotReusableView.xib in Resources */,
 				15B7DCD92B2BB95000BFA207 /* SettingLanguageTableViewCell.xib in Resources */,
 				15591CF22B067423005276DD /* UpcomingTableViewCell.xib in Resources */,
-				154ECEB92B04891E008C21CC /* icon-email.png in Resources */,
 				15B7DCD12B2B76C200BFA207 /* TermHeaderView.xib in Resources */,
 				15591CE32B064EE5005276DD /* HourTableViewCell.xib in Resources */,
 				15591CC52B05BD1C005276DD /* ProfileAboutTableViewCell.xib in Resources */,
@@ -2617,7 +2605,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-l\"swiftCoreGraphics\"",
@@ -2720,7 +2708,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-l\"swiftCoreGraphics\"",

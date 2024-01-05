@@ -21,6 +21,4 @@ extension Date {
         formatter.timeZone = TimeZone(identifier: "UTC")
         return formatter.string(from: self)
     }
-    
-
 }

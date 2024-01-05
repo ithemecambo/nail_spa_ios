@@ -9,7 +9,7 @@ import UIKit
 import Kingfisher
 import GoogleSignIn
 
-class SettingsViewController: UIViewController {
+class SettingsViewController: BaseViewController {
     
     @IBOutlet weak var tableView: SettingsTableView! {
         didSet {
@@ -30,6 +30,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Settings"
+        self.loadItems()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -48,17 +49,22 @@ class SettingsViewController: UIViewController {
 extension SettingsViewController {
     private func loadItems() {
         if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
-            settings[3].items![1].value = "V " + version
+            settings[2].items![2].value = "V " + version
         }
-        KingfisherManager.shared.cache.calculateDiskStorageSize { (cacheSize) in
-//            let size = Double(cacheSize/1024)/1024
-//            if floor(size) == size {
-//                self.items[3][0].value = "\(Int(size)) MB"
-//            } else {
-//                self.items[3][0].value = (NSString(format:  "%.2f", size) as String) + " MB"
-//            }
+        KingfisherManager.shared.cache.calculateDiskStorageSize { result in
+            switch result {
+            case .success(let cacheSize):
+                let size = Double(cacheSize/1024)/1024
+                if floor(size) == size {
+                    self.settings[2].items![1].value = "\(Int(size)) MB"
+                } else {
+                    self.settings[2].items![1].value = String(format:  "%.2f", size) + " MB"
+                }
+            case .failure(let error):
+                consoleLog(error)
+            }
+            self.tableView.reloadData()
         }
-        self.tableView.reloadData()
     }
 }
 
@@ -71,22 +77,23 @@ extension SettingsViewController: SettingsTableViewDataSource {
 extension SettingsViewController: SettingsTableViewDelegate {
     func didSelect(indexPath: IndexPath) {
         switch indexPath.section {
-        case 0:
-            consoleLog("\(indexPath.section), \(indexPath.row)")
-        case 1:
-            consoleLog("\(indexPath.section), \(indexPath.row)")
+        case 0: break
+        case 1: break
         case 2:
             switch indexPath.row {
             case 0:
                 self.router.perform(.feedback, from: self)
             case 1:
-                consoleLog("row: \(indexPath.row)")
-            case 2:
-                consoleLog("row: \(indexPath.row)")
+                self.startLoading(text: Loading)
+                KingfisherManager.shared.cache.clearDiskCache {
+                    self.settings[2].items![1].value = "0 MB"
+                    self.stopLoading()
+                    self.tableView.reloadData()
+                }
+            case 2: break
             default: break
             }
-        case 3:
-            consoleLog("\(indexPath.section), \(indexPath.row)")
+        case 3: break
         default: break
         }
     }
