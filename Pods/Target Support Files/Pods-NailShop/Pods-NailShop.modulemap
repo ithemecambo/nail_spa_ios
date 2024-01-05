@@ -1,6 +1,0 @@
-framework module Pods_NailShop {
-  umbrella header "Pods-NailShop-umbrella.h"
-
-  export *
-  module * { export * }
-}
