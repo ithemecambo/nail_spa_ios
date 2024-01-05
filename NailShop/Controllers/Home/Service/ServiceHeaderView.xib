@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ServiceHeaderView" customModule="NailShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rTN-7B-8BF">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K7I-I3-ITQ">
+                            <rect key="frame" x="16" y="10" width="50" height="50"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="miI-24-UPT">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="miI-24-UPT" firstAttribute="top" secondItem="K7I-I3-ITQ" secondAttribute="top" id="EJt-bt-L5d"/>
+                                <constraint firstAttribute="height" constant="50" id="dz1-B1-JZ3"/>
+                                <constraint firstAttribute="trailing" secondItem="miI-24-UPT" secondAttribute="trailing" id="lE8-5d-Yc3"/>
+                                <constraint firstAttribute="bottom" secondItem="miI-24-UPT" secondAttribute="bottom" id="oC7-HB-WFX"/>
+                                <constraint firstAttribute="width" constant="50" id="tTi-Pb-nWo"/>
+                                <constraint firstItem="miI-24-UPT" firstAttribute="leading" secondItem="K7I-I3-ITQ" secondAttribute="leading" id="w7I-kY-Vz6"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="25"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nail Enhancement" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sZ7-fP-Aiv">
+                            <rect key="frame" x="76" y="25" width="271" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="czc-h8-OjI">
+                            <rect key="frame" x="357" y="30.333333333333329" width="20" height="10"/>
+                            <color key="tintColor" systemColor="systemGreenColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="DHN-Sy-R95"/>
+                                <constraint firstAttribute="width" constant="20" id="lRW-6r-osd"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="czc-h8-OjI" firstAttribute="centerY" secondItem="K7I-I3-ITQ" secondAttribute="centerY" id="A5P-9o-XV2"/>
+                        <constraint firstItem="sZ7-fP-Aiv" firstAttribute="centerY" secondItem="K7I-I3-ITQ" secondAttribute="centerY" id="CEY-2N-mWe"/>
+                        <constraint firstItem="sZ7-fP-Aiv" firstAttribute="leading" secondItem="K7I-I3-ITQ" secondAttribute="trailing" constant="10" id="Jqc-yl-sIP"/>
+                        <constraint firstItem="czc-h8-OjI" firstAttribute="leading" secondItem="sZ7-fP-Aiv" secondAttribute="trailing" constant="10" id="nif-Gb-eZ9"/>
+                        <constraint firstItem="K7I-I3-ITQ" firstAttribute="centerY" secondItem="rTN-7B-8BF" secondAttribute="centerY" id="nwd-t7-2JV"/>
+                        <constraint firstAttribute="trailing" secondItem="czc-h8-OjI" secondAttribute="trailing" constant="16" id="wOU-sj-HSZ"/>
+                        <constraint firstItem="K7I-I3-ITQ" firstAttribute="leading" secondItem="rTN-7B-8BF" secondAttribute="leading" constant="16" id="xPO-sU-6Hx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rTN-7B-8BF" secondAttribute="bottom" id="Cax-Gf-MDp"/>
+                <constraint firstItem="rTN-7B-8BF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GT2-aK-YgN"/>
+                <constraint firstItem="rTN-7B-8BF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="s00-2f-W3Z"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rTN-7B-8BF" secondAttribute="trailing" id="z6P-Us-mjG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowIcon" destination="czc-h8-OjI" id="My7-Ow-hh2"/>
+                <outlet property="mainView" destination="K7I-I3-ITQ" id="dlm-qC-9Z5"/>
+                <outlet property="photoImageView" destination="miI-24-UPT" id="BTg-0F-Opd"/>
+                <outlet property="serviceNameLabel" destination="sZ7-fP-Aiv" id="dhD-nW-ARE"/>
+            </connections>
+            <point key="canvasLocation" x="96.946564885496173" y="-245.42253521126761"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

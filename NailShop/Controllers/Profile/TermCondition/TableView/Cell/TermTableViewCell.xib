@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="194" id="KGk-i7-Jjw" customClass="TermTableViewCell" customModule="NailShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Term &amp; Condition" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZb-EQ-wZj">
+                        <rect key="frame" x="16" y="16" width="165" height="24"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                        <color key="textColor" systemColor="systemGreenColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Qd1-3M-VzI">
+                        <rect key="frame" x="16" y="56" width="288" height="122"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G9Q-lD-CSC">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="122"/>
+                                <mutableString key="text">JOIN (REGISTRATION)\nRegistration at our website is FREE, you can become a member of Angkorstores website without any admission fee or membership charges. Everyone can use services of Angkorstores website, whether it is a member or not.\n\n1. Instructions for sign up\nBy following the instructions below, you can create your free membership of Angkorstores.com\n\nClick on \"My Account\" button at the front page\n1.1. Click “Register Now”.\n1.2. Enter all required information.\n1.3. Registration complete.\n* In case if you forget your ID or PASSWORD, please contact us through e-mail.\n\n2. How to edit personal information\nFirst, you need to log in to edit your information. Then, move to \"My Account\" page and click “Account Information”. Password, name, phone number, address and zip code can be modified.\n\nSAFETY MEASURES\n\nTo protect our customers’ private information, we have been always planning some strict safety measures. For more detailed information, please take a look at the following [Privacy Policy].\n\n2.1. Security\nCustomer’s privacy and shopping information are encrypted with SSL secret code and processed by Bank. So, we cannot see your Credit card number or internet banking user and password.\n\n2.2. Minimum requirements for PC\nAngkorstores website is compatible with Window Internet Explorer version 7.0, Firefox 38.0.5, Safari version 7 or latest version.\n\n3-BUY\nA.</mutableString>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <color key="textColor" name="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Qd1-3M-VzI" secondAttribute="bottom" constant="16" id="9wM-uy-sgj"/>
+                    <constraint firstAttribute="trailing" secondItem="Qd1-3M-VzI" secondAttribute="trailing" constant="16" id="Dlr-Kz-B1x"/>
+                    <constraint firstItem="Qd1-3M-VzI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="OUb-En-ycs"/>
+                    <constraint firstItem="BZb-EQ-wZj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Q5m-0C-NNt"/>
+                    <constraint firstItem="BZb-EQ-wZj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="UUF-rI-HXR"/>
+                    <constraint firstItem="Qd1-3M-VzI" firstAttribute="top" secondItem="BZb-EQ-wZj" secondAttribute="bottom" constant="16" id="Wct-UC-SRA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="G9Q-lD-CSC" id="Fgy-Xb-7aS"/>
+                <outlet property="titleLabel" destination="BZb-EQ-wZj" id="YfU-74-yp7"/>
+            </connections>
+            <point key="canvasLocation" x="-15.267175572519083" y="71.83098591549296"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="textColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

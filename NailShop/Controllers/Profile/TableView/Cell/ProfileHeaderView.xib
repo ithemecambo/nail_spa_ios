@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ProfileHeaderView" customModule="NailShop" customModuleProvider="target">
+            <connections>
+                <outlet property="profileImageView" destination="drl-17-Cyd" id="R6U-Di-Dnu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="322"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a45-5s-XpU">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="322"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKa-eX-0OK">
+                            <rect key="frame" x="136.66666666666666" y="131" width="119.99999999999997" height="120"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="additional-service" translatesAutoresizingMaskIntoConstraints="NO" id="drl-17-Cyd">
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="drl-17-Cyd" secondAttribute="trailing" id="GAQ-0D-M1o"/>
+                                <constraint firstItem="drl-17-Cyd" firstAttribute="top" secondItem="pKa-eX-0OK" secondAttribute="top" id="bcI-tG-uIt"/>
+                                <constraint firstItem="drl-17-Cyd" firstAttribute="leading" secondItem="pKa-eX-0OK" secondAttribute="leading" id="bdT-ra-om2"/>
+                                <constraint firstAttribute="bottom" secondItem="drl-17-Cyd" secondAttribute="bottom" id="e2C-mj-Lgu"/>
+                                <constraint firstAttribute="height" constant="120" id="k2Z-OY-PeZ"/>
+                                <constraint firstAttribute="width" constant="120" id="u6c-h8-zJZ"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="60"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="0.3003029337" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="pKa-eX-0OK" firstAttribute="centerX" secondItem="a45-5s-XpU" secondAttribute="centerX" id="FRf-3G-iuw"/>
+                        <constraint firstItem="pKa-eX-0OK" firstAttribute="centerY" secondItem="a45-5s-XpU" secondAttribute="centerY" constant="30" id="ifR-K5-zc8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="a45-5s-XpU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RiS-sa-Pjf"/>
+                <constraint firstAttribute="bottom" secondItem="a45-5s-XpU" secondAttribute="bottom" id="Wlh-U6-WUM"/>
+                <constraint firstItem="a45-5s-XpU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="XAk-wa-bbK"/>
+                <constraint firstItem="a45-5s-XpU" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="cSg-uY-Rp6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="93.89312977099236" y="-166.90140845070422"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="additional-service" width="350" height="350"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

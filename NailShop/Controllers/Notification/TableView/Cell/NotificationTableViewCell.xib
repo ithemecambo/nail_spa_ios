@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="643" id="KGk-i7-Jjw" customClass="NotificationTableViewCell" customModule="NailShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="643"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="643"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PTh-oH-7MN">
+                        <rect key="frame" x="10" y="10" width="300" height="633"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oK6-lA-EtR">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="OOT-bF-2IY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black's Friday " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jY1-xF-s7d">
+                                <rect key="frame" x="16" y="266" width="268" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VcI-Yn-KWQ">
+                                <rect key="frame" x="16" y="312" width="268" height="244.66666666666663"/>
+                                <string key="text">Since these defects substantially impair the use, value and/or safety of my vehicle, I am hereby allowing you one final opportunity to repair my vehicle under the New Jersey Lemon Law. If these repairs are not made within ten calendar days of receipt of this letter, I am entitled under the New Jersey Lemon Law to a replacement vehicle acceptable to me or a refund calculated in accordance with the Lemon Law. I look forward to hearing from you soon. You can reach me during the day at – – and in the evening at – – .</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="tableColor"/>
+                        <constraints>
+                            <constraint firstItem="jY1-xF-s7d" firstAttribute="leading" secondItem="PTh-oH-7MN" secondAttribute="leading" constant="16" id="4MM-tO-dkC"/>
+                            <constraint firstAttribute="trailing" secondItem="oK6-lA-EtR" secondAttribute="trailing" id="5we-0F-sOt"/>
+                            <constraint firstItem="oK6-lA-EtR" firstAttribute="leading" secondItem="PTh-oH-7MN" secondAttribute="leading" id="EKo-lb-VK0"/>
+                            <constraint firstAttribute="bottom" secondItem="VcI-Yn-KWQ" secondAttribute="bottom" priority="250" constant="16" id="Fb4-AK-xCZ"/>
+                            <constraint firstItem="jY1-xF-s7d" firstAttribute="top" secondItem="oK6-lA-EtR" secondAttribute="bottom" constant="16" id="KDy-XO-EaL"/>
+                            <constraint firstItem="VcI-Yn-KWQ" firstAttribute="top" secondItem="jY1-xF-s7d" secondAttribute="bottom" constant="16" id="Wcv-O9-gj3"/>
+                            <constraint firstItem="oK6-lA-EtR" firstAttribute="top" secondItem="PTh-oH-7MN" secondAttribute="top" id="YlG-lu-yWb"/>
+                            <constraint firstAttribute="trailing" secondItem="jY1-xF-s7d" secondAttribute="trailing" constant="16" id="YnF-P5-WH2"/>
+                            <constraint firstItem="VcI-Yn-KWQ" firstAttribute="leading" secondItem="PTh-oH-7MN" secondAttribute="leading" constant="16" id="ZlS-yh-kdk"/>
+                            <constraint firstAttribute="trailing" secondItem="VcI-Yn-KWQ" secondAttribute="trailing" constant="16" id="jTC-Ph-EaP"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="PTh-oH-7MN" secondAttribute="bottom" id="LXf-0q-O4w"/>
+                    <constraint firstItem="PTh-oH-7MN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Tq4-Aa-9Kj"/>
+                    <constraint firstItem="PTh-oH-7MN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="jhJ-US-rze"/>
+                    <constraint firstAttribute="trailing" secondItem="PTh-oH-7MN" secondAttribute="trailing" constant="10" id="uz8-RE-O3M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageConstraintHeight" destination="OOT-bF-2IY" id="tv8-vp-RAg"/>
+                <outlet property="photoImageView" destination="oK6-lA-EtR" id="Jad-4w-TfE"/>
+                <outlet property="subTitleLabel" destination="VcI-Yn-KWQ" id="afX-HZ-qra"/>
+                <outlet property="titleLabel" destination="jY1-xF-s7d" id="bIv-Ya-yqA"/>
+            </connections>
+            <point key="canvasLocation" x="0.0" y="230.63380281690141"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="tableColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

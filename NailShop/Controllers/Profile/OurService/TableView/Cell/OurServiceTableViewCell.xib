@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="299" id="KGk-i7-Jjw" customClass="OurServiceTableViewCell" customModule="NailShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wMZ-ae-fsa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="299"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="8lS-Ht-wVR">
+                                <rect key="frame" x="16" y="16" width="288" height="267"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="xdA-UK-DC5">
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="37.333333333333336"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SNS PINK AND WHITE WITH MANICURE" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V8m-3s-JrS">
+                                                <rect key="frame" x="0.0" y="0.0" width="169.66666666666666" height="37.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                                <color key="textColor" name="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$15.75" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhE-mK-A5X">
+                                                <rect key="frame" x="236" y="0.0" width="52" height="37.333333333333336"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="isE-AB-H0v">
+                                        <rect key="frame" x="0.0" y="109.66666666666667" width="288" height="157.33333333333331"/>
+                                        <string key="text">I first encountered these interviews when I was a candidate at Facebook. Given the choice between a System Design (called "Pirate") or an API/Product Design round (called "Pirate X"), I opted for System Design because of my specialization. However, API Design will make more sense for many engineers — especially in 2024 and beyond.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                        <color key="textColor" name="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="tableColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8lS-Ht-wVR" secondAttribute="trailing" constant="16" id="Abo-fX-ere"/>
+                            <constraint firstItem="8lS-Ht-wVR" firstAttribute="leading" secondItem="wMZ-ae-fsa" secondAttribute="leading" constant="16" id="DQT-M1-Us9"/>
+                            <constraint firstAttribute="bottom" secondItem="8lS-Ht-wVR" secondAttribute="bottom" constant="16" id="UQo-BI-4JP"/>
+                            <constraint firstItem="8lS-Ht-wVR" firstAttribute="top" secondItem="wMZ-ae-fsa" secondAttribute="top" constant="16" id="WTB-A3-B2q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wMZ-ae-fsa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3Yb-3Y-sIG"/>
+                    <constraint firstAttribute="trailing" secondItem="wMZ-ae-fsa" secondAttribute="trailing" id="TWc-Mu-8m9"/>
+                    <constraint firstAttribute="bottom" secondItem="wMZ-ae-fsa" secondAttribute="bottom" id="fRN-WS-BCb"/>
+                    <constraint firstItem="wMZ-ae-fsa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ffN-89-W8R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descLabel" destination="isE-AB-H0v" id="Fd7-bB-dth"/>
+                <outlet property="priceLabel" destination="IhE-mK-A5X" id="lnu-42-Die"/>
+                <outlet property="titleLabel" destination="V8m-3s-JrS" id="VFI-rD-xGw"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="95"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="tableColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

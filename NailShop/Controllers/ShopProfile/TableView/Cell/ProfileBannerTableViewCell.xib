@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="339" id="KGk-i7-Jjw" customClass="ProfileBannerTableViewCell" customModule="NailShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner_shop" translatesAutoresizingMaskIntoConstraints="NO" id="SLv-qq-VDG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="339"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3jK-p1-1bk">
+                        <rect key="frame" x="259" y="4" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="EfU-IF-9p5"/>
+                            <constraint firstAttribute="width" constant="50" id="N8B-Ow-XZd"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemGreenColor"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="Button" image="heart.fill" catalog="system">
+                            <attributedString key="attributedTitle"/>
+                        </state>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <imageReference key="image" image="heart.fill" catalog="system" symbolScale="large"/>
+                            <attributedString key="attributedTitle"/>
+                        </buttonConfiguration>
+                        <connections>
+                            <action selector="likeButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="KrW-dj-3ix"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="3jK-p1-1bk" secondAttribute="trailing" constant="-5" id="0Rp-J9-yf4"/>
+                    <constraint firstAttribute="trailing" secondItem="SLv-qq-VDG" secondAttribute="trailing" id="Hlh-qx-tZd"/>
+                    <constraint firstItem="SLv-qq-VDG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Pt7-pT-mgS"/>
+                    <constraint firstItem="3jK-p1-1bk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-10" id="VBY-6e-f8c"/>
+                    <constraint firstAttribute="bottom" secondItem="SLv-qq-VDG" secondAttribute="bottom" id="WRM-AX-3dF"/>
+                    <constraint firstItem="SLv-qq-VDG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gOD-IJ-SFb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="bannerImageView" destination="SLv-qq-VDG" id="Lav-LY-FE6"/>
+                <outlet property="likeButton" destination="3jK-p1-1bk" id="AdV-xy-iuy"/>
+            </connections>
+            <point key="canvasLocation" x="-32.061068702290072" y="123.59154929577466"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner_shop" width="1920" height="2404"/>
+        <image name="heart.fill" catalog="system" width="128" height="107"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="1027" id="KGk-i7-Jjw" customClass="ProfileAboutTableViewCell" customModule="NailShop" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="1027"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="1027"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="soK-Kl-o6E">
+                        <rect key="frame" x="16" y="16" width="4" height="26"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="4" id="NxR-06-Fn8"/>
+                            <constraint firstAttribute="height" constant="26" id="qEc-fh-58v"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kus-E8-YdH">
+                        <rect key="frame" x="30" y="20" width="53" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8tf-u5-DnI">
+                        <rect key="frame" x="16" y="54" width="288" height="957"/>
+                        <string key="text">Founded in 1995, Salon is an independent publication covering news and politics through a progressive, nonpartisan editorial lens, alongside our rigorous and inquisitive coverage of culture and entertainment, science and health, and food. Our editorial mission is pro-democracy, pro-equality and justice and pro-truth. We ask and seek to answer in good faith — through original reporting, news analysis, investigations, left-leaning and politically independent commentary, insightful cultural criticism, personal essays and in-depth interviews — big questions, such as:
+
+What is the state of democracy in the United States and the world?
+
+What are the most influential movements across the political spectrum, and where are they going next?
+
+Who are the most compelling cultural figures, what are the works that are defining this moment, and why?
+
+How did we get to this moment in entertainment, culture, food, science and public health? Where will — or should — we go next?
+
+Who is getting ahead in this moment, and who is being left behind or harmed?
+
+What political, cultural, scientific and food personalities, topics and movements are worth a deeper dive or a reconsideration?
+
+What challenges us in times of complacency? What soothes us in times of hardship?
+
+One of the first entirely digital major media outlets, Salon has driven the national conversation since 1995 through fearless journalism distributed across Salon.com, Salon TV, social media, news platforms, email newsletters and mobile apps. Salon’s award-winning content, including our flagship show “Salon Talks” and other Salon TV programming, reaches an audience of approximately 10 million monthly unique visitors.</string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8tf-u5-DnI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="A84-kJ-gkZ"/>
+                    <constraint firstItem="8tf-u5-DnI" firstAttribute="top" secondItem="kus-E8-YdH" secondAttribute="bottom" constant="16" id="BWx-6K-KOT"/>
+                    <constraint firstItem="kus-E8-YdH" firstAttribute="centerY" secondItem="soK-Kl-o6E" secondAttribute="centerY" id="BtN-lS-f4M"/>
+                    <constraint firstAttribute="trailing" secondItem="8tf-u5-DnI" secondAttribute="trailing" constant="16" id="NzF-Uq-pHm"/>
+                    <constraint firstItem="soK-Kl-o6E" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ahi-UF-cKG"/>
+                    <constraint firstItem="soK-Kl-o6E" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="hed-a5-ghE"/>
+                    <constraint firstItem="kus-E8-YdH" firstAttribute="leading" secondItem="soK-Kl-o6E" secondAttribute="trailing" constant="10" id="v84-Rh-fpe"/>
+                    <constraint firstAttribute="bottom" secondItem="8tf-u5-DnI" secondAttribute="bottom" constant="16" id="vRO-HO-kIN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descLabel" destination="8tf-u5-DnI" id="4i9-zD-IhQ"/>
+                <outlet property="titleLabel" destination="kus-E8-YdH" id="vf9-Jb-J1A"/>
+            </connections>
+            <point key="canvasLocation" x="-122.13740458015266" y="365.84507042253523"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
