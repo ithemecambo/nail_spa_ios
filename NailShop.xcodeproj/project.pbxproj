@@ -113,6 +113,7 @@
 		15683AD02B0D7D3D00AB2B28 /* PackageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15683ACC2B0D7D3D00AB2B28 /* PackageViewCell.xib */; };
 		156CE51F2B47A4560091A336 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CE51E2B47A4560091A336 /* Array.swift */; };
 		156CE5202B47A4560091A336 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CE51E2B47A4560091A336 /* Array.swift */; };
+		156CE5222B47AC130091A336 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 156CE5212B47AC130091A336 /* .gitignore */; };
 		1589135D2B067B0C002D99C1 /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1589135C2B067B0C002D99C1 /* UISwitch.swift */; };
 		158913712B0699EB002D99C1 /* MyBookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158913702B0699EB002D99C1 /* MyBookingModel.swift */; };
 		158913752B069A4E002D99C1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158913742B069A4E002D99C1 /* UserModel.swift */; };
@@ -435,6 +436,7 @@
 		15683ACB2B0D7D3D00AB2B28 /* PackageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageViewCell.swift; sourceTree = "<group>"; };
 		15683ACC2B0D7D3D00AB2B28 /* PackageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PackageViewCell.xib; sourceTree = "<group>"; };
 		156CE51E2B47A4560091A336 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		156CE5212B47AC130091A336 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		1589135C2B067B0C002D99C1 /* UISwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitch.swift; sourceTree = "<group>"; };
 		158913702B0699EB002D99C1 /* MyBookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookingModel.swift; sourceTree = "<group>"; };
 		158913742B069A4E002D99C1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -1073,6 +1075,14 @@
 			path = "Create Password";
 			sourceTree = "<group>";
 		};
+		156CE5232B47AC1D0091A336 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				156CE5212B47AC130091A336 /* .gitignore */,
+			);
+			name = Git;
+			sourceTree = "<group>";
+		};
 		158913802B07A614002D99C1 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1242,6 +1252,7 @@
 		15B1480C2B02CC7400BE947A = {
 			isa = PBXGroup;
 			children = (
+				156CE5232B47AC1D0091A336 /* Git */,
 				15B148172B02CC7500BE947A /* NailShop */,
 				15E579882B3E8D6A0082FFFE /* NailShopTests */,
 				15B148162B02CC7500BE947A /* Products */,
@@ -2077,6 +2088,7 @@
 				15A4408D2B0D22A6002F0D3F /* ServiceHeaderView.xib in Resources */,
 				1598B5352B0BE8EE00E0D253 /* NailArtViewCell.xib in Resources */,
 				15B51C522B07E403006BD317 /* ApptServiceCollectionViewCell.xib in Resources */,
+				156CE5222B47AC130091A336 /* .gitignore in Resources */,
 				15B7DCBB2B2B5E1A00BFA207 /* Settings.storyboard in Resources */,
 				15591C5F2B0596B2005276DD /* ServiceTableViewCell.xib in Resources */,
 				15B148202B02CC7500BE947A /* Main.storyboard in Resources */,
