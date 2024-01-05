@@ -7,8 +7,97 @@ Currently, I live with other people who come from the same country. Especially t
 * [Features](#features)
 * [Technologies](#technologies)
 * [Installation](#installation)
-* [Endpoint API](#endpoint-api)
 * [Screenshot](#screenshot)
 * [Support this repo](#support-this-repo)
 * [Social Contact](#social-contact)
 * [Conact Info](#contact-info)
+
+
+## Features
+- Authentication
+  - Create Account
+  - Login 
+  - Login by social (Facebook & Google)
+  - Forget Password
+- Home
+  - promotion
+  - Staff member
+  - Service
+  - Gallery
+  - Business Hour
+- Notifications
+- Make an Appointment
+  - Allow make an appoitment the same from 1:00AM until 11:00AM else move to next day
+  - Always close shop on Monday
+  - Time Slot dymanic depending on weekday
+- Booking
+  - Upcoming
+     - Reschedule Appointment
+     - Cancel Appointment
+  - Completed
+     - Review
+- Profile
+  - Our Service
+  - View or Update Information
+  - Change Password
+  - Contact Us
+  - Nail & Spa Springs
+  - Term & Conditions
+  - Dark Mode
+- Settings
+  - Feedback
+
+
+## Technologies
+- Swift 5.3 (Storyboard)
+- Compatible OS version: 16
+- Compatible Dark & Light Mode
+- CoreData 
+- RESTFul API
+- Alamofire
+- SwiftyJSON
+- Calendar
+- Kingfisher
+- Lottie 
+- Integrated (Facebook & Google)
+
+
+## Installation
+#### Clone the code
+```sh
+$ https://github.com/ithemecambo/nail_spa_ios.git
+$ cd Nail & Spa Springs 
+```
+
+#### Pod install
+```sh
+$ pod install
+```
+
+#### Server run on port: 8000
+```sh
+$ # You can change the server configuration
+$ # (Ex: 192.0.0.1:8000 or localhost:8000) 
+$ # apiPath = "http://localhost:8000/api/v1/"
+$ # BaseUrl = "http://localhost:8000/api/v1/"
+```
+
+## Screenshot
+#### Light Mode
+<img src="https://github.com/ithemecambo/nail_spa_portal/blob/main/screenshots/mobile/iOS/4.3.shop-location.png" width="170">
+
+#### Dark Mode
+
+
+## Support this repo
+* Star this repo <img src="https://github.com/ithemecambo/nail_spa_portal/blob/main/screenshots/give-star.png" width="60">
+
+
+## Social Contact
+* LinkedIn: <a href="https://www.linkedin.com/in/senghortkheang">kheang senghort</a>
+* Portfolio: <a href="https://ithemecambo.github.io/portfolio">Senghort Kheang</a>
+* Demo App: <a href="https://youtu.be/p5YKqSXfMMI">Nail & Spa Springs</a>
+
+
+## Contact Info
+* Email: senghort.rupp@gmail.com
